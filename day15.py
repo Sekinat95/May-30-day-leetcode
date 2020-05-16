@@ -19,5 +19,5 @@ class Solution:
       cursum = max(n, cursum+n)
       maxsum = max(cursum, maxsum)
     return maxsum
-a = new Solution()
-print(Solution.maxSubarraySumCircular(a,[1,2,3,-1]))  
+a = Solution()
+print(Solution.maxSubarraySumCircular(a,[1,-2,3,-2]))  
